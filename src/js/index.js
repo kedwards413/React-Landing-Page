@@ -9,19 +9,5 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Home } from "./component/home.js";
-
-
-
-
-
-
-
-
-
-
-//render your react application
-ReactDOM.render(<Home />,  document.querySelector("#app"));
-ReactDOM.render(<Navbar />,  document.querySelector("#navbar"));
-ReactDOM.render(<Jumbotron />,  document.querySelector("#jumbotron"));
-ReactDOM.render(<Cards />,  document.querySelector("#cards"));
+import { Home } from "../js/component/home";
+ReactDOM.render(<Home />, document.querySelector("#app"));
