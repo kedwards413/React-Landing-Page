@@ -49,4 +49,3 @@ Navbar.propTypes = {
 	navAbout: PropTypes.string,
 	navContact: PropTypes.string
 };
-//Navbar End
