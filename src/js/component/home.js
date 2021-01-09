@@ -23,32 +23,34 @@ export const Home = props => {
 					buttonURL="https://reactjs.org/"
 				/>
 			</div>
-			<div>
-				<Cards
-					title="Hello!"
-					cardImage="https://i.pinimg.com/736x/ae/c4/53/aec453161b2f33ffc6219d8a758307a9.jpg"
-					description="This is my first website using React. I hope you enjoy it. Thank you for stopping by!"
-					buttonURL="https://en.wikipedia.org/wiki/Main_Page"
-					buttonLabel="Click here"
-				/>
-			</div>
-			<div>
-				<Cards
-					title="Welcome!"
-					cardImage="https://i.pinimg.com/736x/ae/c4/53/aec453161b2f33ffc6219d8a758307a9.jpg"
-					description="This is my first website using React. I hope you enjoy it. Thank you for stopping by!"
-					buttonURL="https://en.wikipedia.org/wiki/Main_Page"
-					buttonLabel="Click here"
-				/>
-			</div>
-			<div>
-				<Cards
-					title="Hello!"
-					cardImage="https://i.pinimg.com/736x/ae/c4/53/aec453161b2f33ffc6219d8a758307a9.jpg"
-					description="This is my first website using React. I hope you enjoy it. Thank you for stopping by!"
-					buttonURL="https://en.wikipedia.org/wiki/Main_Page"
-					buttonLabel="Click here"
-				/>
+			<div className="d-flex justify-content-center">
+				<div>
+					<Cards
+						title="Hello!"
+						cardImage="https://i.pinimg.com/736x/ae/c4/53/aec453161b2f33ffc6219d8a758307a9.jpg"
+						description="This is my first website using React. I hope you enjoy it. Thank you for stopping by!"
+						buttonURL="https://en.wikipedia.org/wiki/Main_Page"
+						buttonLabel="Click here"
+					/>
+				</div>
+				<div>
+					<Cards
+						title="Welcome!"
+						cardImage="https://i.pinimg.com/736x/ae/c4/53/aec453161b2f33ffc6219d8a758307a9.jpg"
+						description="This is my first website using React. I hope you enjoy it. Thank you for stopping by!"
+						buttonURL="https://en.wikipedia.org/wiki/Main_Page"
+						buttonLabel="Click here"
+					/>
+				</div>
+				<div>
+					<Cards
+						title="Hello!"
+						cardImage="https://i.pinimg.com/736x/ae/c4/53/aec453161b2f33ffc6219d8a758307a9.jpg"
+						description="This is my first website using React. I hope you enjoy it. Thank you for stopping by!"
+						buttonURL="https://en.wikipedia.org/wiki/Main_Page"
+						buttonLabel="Click here"
+					/>
+				</div>
 				<div>
 					<Cards
 						title="Card Header"

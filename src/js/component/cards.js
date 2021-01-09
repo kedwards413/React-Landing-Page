@@ -3,16 +3,14 @@ import PropTypes from "prop-types";
 //include images into your bundle
 
 const cardStyles = {
-	width: "18rem",
-	margin: "20px"
+	width: "20rem",
+	margin: "30px"
 };
 
 export const Cards = props => {
 	return (
 		<>
-			<div
-				className="card d-flex align-items-center flex-column"
-				style={cardStyles}>
+			<div className="card justify-content-center" style={cardStyles}>
 				<img src={props.cardImage} className="card-img-top" alt="..." />
 				<div className="card-body">
 					<h5 className="card-title">{props.title}</h5>
